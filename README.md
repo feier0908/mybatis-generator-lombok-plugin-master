@@ -1,6 +1,7 @@
 # mybatis-generator-lombok-plugin-master
 本项目为mybatis-genrator的整合lombok拓展插件，可以支持@Data,@Builder,@Accessors,注解的生成与参数设置
 更多注解的支持正在开发中，希望能给大家带来便利
+```xml
         <plugin type="com.feier.mybatis.generator.plgins.CommentPlugin">
             <!-- 抑制警告 -->
             <property name="suppressTypeWarnings" value="true"/>
@@ -28,3 +29,4 @@
             <property name="accessors" value="true"/>
             <property name="accessors.chain" value="true"/>
         </plugin>
+```
